@@ -1,0 +1,47 @@
+.menu-bar {
+    -fx-background-color: #353A56;
+    -fx-text-fill: #eaeef4;
+}
+
+.message-bar {
+    -fx-background-color: #D9D6E0;
+    -fx-text-fill: #0c0c0c;
+}
+
+.search-bar {
+    -fx-background-color: #ebebef;
+    -fx-prompt-text-fill: #6c6c6c;
+}
+
+.layer-background {
+    -fx-background-color: #eaeef4;
+}
+
+.message-bar-chatting {
+    -fx-background-color: #ffffff;
+}
+
+.message-bar-onChatting {
+    -fx-background-color: #f2f4f6;
+}
+
+.other-chatting-box {
+    -fx-background-color: #8E99E4;
+    -fx-background-radius: 10px;
+}
+
+.me-chatting-box {
+    -fx-background-color: #283382;
+    -fx-background-radius: 10px;
+    -fx-tick-label-fill: #eaeef4;
+}
+
+.type-message-box {
+    -fx-background-color: #d8d8dc;
+    -fx-prompt-text-fill: #636363;
+}
+
+.on-chatting {
+    -fx-background-color: #d8d8dc;
+    -fx-background-radius: 20px;
+}

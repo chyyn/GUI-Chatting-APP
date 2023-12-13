@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane prefHeight="700.0" prefWidth="68.0" styleClass="menu-bar" stylesheets="@style.css" AnchorPane.leftAnchor="0.0">
+         <children>
+            <ImageView fitHeight="47.0" fitWidth="51.0" layoutX="12.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@PNG/woman.png" />
+               </image>
+            </ImageView>
+            <VBox alignment="CENTER" layoutX="-2.0" layoutY="82.0" prefHeight="276.0" prefWidth="74.0">
+               <children>
+                  <JFXButton contentDisplay="GRAPHIC_ONLY" prefHeight="53.0" prefWidth="52.0">
+                     <graphic>
+                        <ImageView fitHeight="45.0" fitWidth="39.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@PNG/avatar.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </JFXButton>
+                  <JFXButton contentDisplay="GRAPHIC_ONLY" prefHeight="53.0" prefWidth="52.0">
+                     <graphic>
+                        <ImageView fitHeight="37.0" fitWidth="36.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@PNG/chat.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </JFXButton>
+                  <JFXButton contentDisplay="GRAPHIC_ONLY" prefHeight="53.0" prefWidth="52.0">
+                     <graphic>
+                        <ImageView fitHeight="37.0" fitWidth="36.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@PNG/call.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </JFXButton>
+                  <JFXButton contentDisplay="GRAPHIC_ONLY" prefHeight="53.0" prefWidth="52.0">
+                     <graphic>
+                        <ImageView fitHeight="34.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@PNG/shopping.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </JFXButton>
+                  <JFXButton contentDisplay="GRAPHIC_ONLY" prefHeight="53.0" prefWidth="52.0">
+                     <graphic>
+                        <ImageView fitHeight="41.0" fitWidth="36.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@PNG/menu_white.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </JFXButton>
+               </children>
+            </VBox>
+            <JFXButton contentDisplay="GRAPHIC_ONLY" layoutX="10.0" layoutY="645.0">
+               <graphic>
+                  <ImageView fitHeight="50.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@PNG/setting.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="74.0" prefHeight="700.0" prefWidth="253.0" styleClass="message-bar" stylesheets="@style.css">
+         <children>
+            <TextField layoutX="11.0" layoutY="8.0" prefHeight="34.0" prefWidth="206.0" promptText=" Search here" styleClass="search-bar" stylesheets="@style.css">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </TextField>
+            <JFXButton alignment="BASELINE_LEFT" contentDisplay="GRAPHIC_ONLY" layoutY="49.0" prefHeight="80.0" prefWidth="254.0" styleClass="message-bar-chatting" stylesheets="@style.css">
+               <graphic>
+                  <ImageView fitHeight="43.0" fitWidth="41.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@PNG/businessman.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+            <JFXButton alignment="BASELINE_LEFT" contentDisplay="GRAPHIC_ONLY" layoutY="128.0" prefHeight="80.0" prefWidth="254.0" styleClass="message-bar-onChatting" stylesheets="@style.css">
+               <graphic>
+                  <ImageView fitHeight="43.0" fitWidth="41.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@PNG/girl.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+            <JFXButton alignment="BASELINE_LEFT" contentDisplay="GRAPHIC_ONLY" layoutY="208.0" prefHeight="82.0" prefWidth="254.0" styleClass="message-bar-chatting" stylesheets="@style.css">
+               <graphic>
+                  <ImageView fitHeight="43.0" fitWidth="41.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@PNG/man(1).png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+            <JFXButton alignment="BASELINE_LEFT" contentDisplay="GRAPHIC_ONLY" layoutY="290.0" prefHeight="82.0" prefWidth="254.0" styleClass="message-bar-chatting" stylesheets="@style.css">
+               <graphic>
+                  <ImageView fitHeight="43.0" fitWidth="41.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@PNG/man(2).png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+            <JFXButton alignment="BASELINE_LEFT" contentDisplay="GRAPHIC_ONLY" layoutY="372.0" prefHeight="82.0" prefWidth="254.0" styleClass="message-bar-chatting" stylesheets="@style.css">
+               <graphic>
+                  <ImageView fitHeight="43.0" fitWidth="41.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@PNG/man(3).png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+            <JFXButton alignment="BASELINE_LEFT" contentDisplay="GRAPHIC_ONLY" layoutY="454.0" prefHeight="82.0" prefWidth="254.0" styleClass="message-bar-chatting" stylesheets="@style.css">
+               <graphic>
+                  <ImageView fitHeight="43.0" fitWidth="41.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@PNG/man.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+            <JFXButton alignment="BASELINE_LEFT" contentDisplay="GRAPHIC_ONLY" layoutY="536.0" prefHeight="82.0" prefWidth="254.0" styleClass="message-bar-chatting" stylesheets="@style.css">
+               <graphic>
+                  <ImageView fitHeight="43.0" fitWidth="41.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@PNG/woman(1).png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+            <JFXButton alignment="BASELINE_LEFT" contentDisplay="GRAPHIC_ONLY" layoutY="618.0" prefHeight="82.0" prefWidth="254.0" styleClass="message-bar-chatting" stylesheets="@style.css">
+               <graphic>
+                  <ImageView fitHeight="43.0" fitWidth="41.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@PNG/user.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+            <ImageView fitHeight="18.0" fitWidth="16.0" layoutX="227.0" layoutY="57.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@PNG/thumbtacks.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="31.0" fitWidth="25.5" layoutX="223.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@PNG/new-chat.png" />
+               </image>
+            </ImageView>
+            <Circle fill="#ff073a" layoutX="42.0" layoutY="265.0" radius="8.0" stroke="#ff073a" strokeType="INSIDE" />
+            <Circle fill="#39ff14" layoutX="42.0" layoutY="348.0" radius="8.0" stroke="#39ff14" strokeType="INSIDE" />
+            <Circle fill="#ff073a" layoutX="42.0" layoutY="594.0" radius="8.0" stroke="#ff073a" strokeType="INSIDE" />
+            <Circle fill="#39ff14" layoutX="43.0" layoutY="430.0" radius="8.0" stroke="#39ff14" strokeType="INSIDE" />
+            <Circle fill="#39ff14" layoutX="42.0" layoutY="511.0" radius="8.0" stroke="#39ff14" strokeType="INSIDE" />
+            <Circle fill="#39ff14" layoutX="42.0" layoutY="185.0" radius="8.0" stroke="#39ff14" strokeType="INSIDE" />
+            <Circle fill="#ff073a" layoutX="40.0" layoutY="106.0" radius="8.0" stroke="#ff073a" strokeType="INSIDE" />
+            <Circle fill="#ff073a" layoutX="42.0" layoutY="675.0" radius="8.0" stroke="#ff073a" strokeType="INSIDE" />
+            <ImageView fitHeight="18.0" fitWidth="16.0" layoutX="227.0" layoutY="136.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@PNG/thumbtacks.png" />
+               </image>
+            </ImageView>
+            <Text layoutX="64.0" layoutY="82.0" strokeType="OUTSIDE" strokeWidth="0.0" text="William">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Text>
+            <Text layoutX="65.0" layoutY="158.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Linda">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+            </Text>
+            <Text layoutX="66.0" layoutY="241.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Noah">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Text>
+            <Text layoutX="64.0" layoutY="322.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Liam">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+            </Text>
+            <Text layoutX="64.0" layoutY="405.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ethan">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Text>
+            <Text layoutX="65.0" layoutY="487.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lucas">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+            </Text>
+            <Text layoutX="65.0" layoutY="570.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ava">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+            </Text>
+            <Text layoutX="64.0" layoutY="648.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Harper">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Text>
+            <AnchorPane layoutX="63.0" layoutY="168.0" prefHeight="22.0" prefWidth="66.0" styleClass="on-chatting" stylesheets="@style.css">
+               <children>
+                  <Circle layoutX="16.0" layoutY="10.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fill="#1e1d1d" layoutX="33.0" layoutY="12.0" radius="4.0" stroke="#1e1d1d" strokeType="INSIDE" />
+                  <Circle fill="#2e2d2d" layoutX="51.0" layoutY="12.0" radius="4.0" stroke="#2e2d2d" strokeType="INSIDE" />
+               </children>
+            </AnchorPane>
+            <Text layoutX="66.0" layoutY="267.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Woah, you're not gonna...">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Text>
+            <Text layoutX="129.0" layoutY="82.0" strokeType="OUTSIDE" strokeWidth="0.0" text="9:47am" />
+            <Text layoutX="63.0" layoutY="107.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Thankfully, no! Just a few r...">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Text layoutX="116.0" layoutY="241.0" strokeType="OUTSIDE" strokeWidth="0.0" text="9:12am" />
+            <Text layoutX="64.0" layoutY="512.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ugh, that sounds brutal! W..">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Text layoutX="117.0" layoutY="488.0" strokeType="OUTSIDE" strokeWidth="0.0" text="8:59am" />
+            <Text layoutX="63.0" layoutY="595.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Apparently, a hot air balloo...">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Text layoutX="106.0" layoutY="571.0" strokeType="OUTSIDE" strokeWidth="0.0" text="8:58am" />
+            <Text layoutX="61.0" layoutY="672.0" strokeType="OUTSIDE" strokeWidth="0.0" text="You had to document thi...">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Text>
+            <Text layoutX="127.0" layoutY="648.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Yesterday" />
+            <AnchorPane layoutX="62.0" layoutY="333.0" prefHeight="22.0" prefWidth="66.0" styleClass="on-chatting" stylesheets="@style.css">
+               <children>
+                  <Circle layoutX="16.0" layoutY="10.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fill="#1e1d1d" layoutX="33.0" layoutY="12.0" radius="4.0" stroke="#1e1d1d" strokeType="INSIDE" />
+                  <Circle fill="#2e2d2d" layoutX="51.0" layoutY="12.0" radius="4.0" stroke="#2e2d2d" strokeType="INSIDE" />
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="62.0" layoutY="416.0" prefHeight="22.0" prefWidth="66.0" styleClass="on-chatting" stylesheets="@style.css">
+               <children>
+                  <Circle layoutX="16.0" layoutY="10.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fill="#1e1d1d" layoutX="33.0" layoutY="12.0" radius="4.0" stroke="#1e1d1d" strokeType="INSIDE" />
+                  <Circle fill="#2e2d2d" layoutX="51.0" layoutY="12.0" radius="4.0" stroke="#2e2d2d" strokeType="INSIDE" />
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="41.0" fitWidth="41.0" layoutX="337.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@PNG/girl.png" />
+         </image>
+      </ImageView>
+      <Circle fill="#39ff14" layoutX="364.0" layoutY="71.0" radius="5.0" stroke="#39ff14" strokeType="INSIDE" />
+      <Label layoutX="377.0" layoutY="60.0" text="Active now">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="395.0" layoutY="10.0" prefHeight="47.0" prefWidth="103.0" text="Linda">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="29.0" fitWidth="26.0" layoutX="866.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@PNG/phone-call.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="26.0" fitWidth="26.0" layoutX="906.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@PNG/facetime-button.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="41.0" fitWidth="32.0" layoutX="947.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@PNG/ellipsis.png" />
+         </image>
+      </ImageView>
+      <Line endX="581.2929077148438" endY="7.62939453125E-6" layoutX="410.0" layoutY="90.0" startX="-74.39999389648438" startY="7.62939453125E-6" stroke="#636363" />
+      <ImageView fitHeight="41.0" fitWidth="41.0" layoutX="345.0" layoutY="109.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@PNG/girl.png" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="400.0" layoutY="111.0" prefHeight="34.0" prefWidth="81.0" styleClass="other-chatting-box" stylesheets="@style.css">
+         <children>
+            <Label layoutX="14.0" layoutY="8.0" text="CYA!">
+               <font>
+                  <Font name="UD Digi Kyokasho NK-R" size="15.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Circle fill="WHITE" layoutX="475.0" layoutY="139.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" />
+      <ImageView fitHeight="18.0" fitWidth="18.0" layoutX="466.0" layoutY="130.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@PNG/wave.png" />
+         </image>
+      </ImageView>
+      <Line endX="459.0" layoutX="129.0" layoutY="172.0" startX="215.39999389648438" stroke="#636363" style="-fx-stroke-width: 0.5px;" />
+      <Label layoutX="609.0" layoutY="162.0" text="Today 10:30 am" textFill="#636363">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Line endX="459.0" layoutX="525.0" layoutY="172.0" startX="192.4000244140625" stroke="#636363" style="-fx-stroke-width: 0.5px;" styleClass="w" />
+      <ImageView fitHeight="41.0" fitWidth="41.0" layoutX="345.0" layoutY="191.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@PNG/girl.png" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="400.0" layoutY="195.0" prefHeight="34.0" prefWidth="314.0" styleClass="other-chatting-box" stylesheets="@style.css">
+         <children>
+            <Label layoutX="12.0" layoutY="5.0" prefHeight="22.0" prefWidth="306.0" text="Hey! Did you catch the game last night?">
+               <font>
+                  <Font name="UD Digi Kyokasho NK-R" size="15.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="716.0" layoutY="241.0" prefHeight="34.0" prefWidth="268.0" styleClass="me-chatting-box" stylesheets="@style.css">
+         <children>
+            <Label layoutX="13.0" layoutY="7.0" text="Hey! No, I missed it. How was it?" textFill="#eaeef4">
+               <font>
+                  <Font name="UD Digi Kyokasho NK-R" size="15.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="41.0" fitWidth="41.0" layoutX="345.0" layoutY="289.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@PNG/girl.png" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="400.0" layoutY="295.0" prefHeight="137.0" prefWidth="436.0" styleClass="other-chatting-box" stylesheets="@style.css">
+         <children>
+            <Label layoutX="11.0" layoutY="11.0" maxWidth="414.0" prefHeight="115.0" prefWidth="414.0" text="It was intense! The game had everyone on the edge of their seats, the teams were neck and neck throughout the match. The suspense kept building, and the final moments were heart-stopping. In the end, it was a nail-biting finish that left fans amazed." textAlignment="JUSTIFY" wrapText="true">
+               <font>
+                  <Font name="UD Digi Kyokasho NK-R" size="16.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="400.0" layoutY="440.0" prefHeight="56.0" prefWidth="434.0" styleClass="other-chatting-box" stylesheets="@style.css">
+         <children>
+            <Label layoutX="12.0" layoutY="5.0" prefHeight="47.0" prefWidth="425.0" text="ANW, have you decided on your vacation spot for next month?" wrapText="true">
+               <font>
+                  <Font name="UD Digi Kyokasho NK-R" size="15.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Line endX="459.0" layoutX="130.0" layoutY="522.0" startX="207.19998168945312" stroke="#636363" style="-fx-stroke-width: 0.5px;" />
+      <Label layoutX="606.0" layoutY="513.0" text="Today 10:42 am" textFill="#636363">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Line endX="459.0" layoutX="516.0" layoutY="522.0" startX="192.4000244140625" stroke="#636363" style="-fx-stroke-width: 0.5px;" styleClass="w" />
+      <AnchorPane layoutX="469.0" layoutY="542.0" prefHeight="56.0" prefWidth="514.0" styleClass="me-chatting-box" stylesheets="@style.css">
+         <children>
+            <Label layoutX="14.0" layoutY="4.0" prefHeight="47.0" prefWidth="500.0" text="Sounds thrilling! Not yet, still debating between the beach and the mountains." textFill="#eaeef4" wrapText="true">
+               <font>
+                  <Font name="UD Digi Kyokasho NK-R" size="15.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="41.0" fitWidth="41.0" layoutX="345.0" layoutY="598.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@PNG/girl.png" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="400.0" layoutY="602.0" prefHeight="34.0" prefWidth="74.0" styleClass="other-chatting-box" stylesheets="@style.css">
+         <children>
+            <Circle layoutX="20.0" layoutY="18.0" radius="5.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#1e1d1d" layoutX="37.0" layoutY="16.0" radius="5.0" stroke="#1e1d1d" strokeType="INSIDE" />
+            <Circle fill="#2e2d2d" layoutX="55.0" layoutY="15.0" radius="5.0" stroke="#2e2d2d" strokeType="INSIDE" />
+         </children>
+      </AnchorPane>
+      <TextField layoutX="376.0" layoutY="652.0" prefHeight="38.0" prefWidth="574.0" promptText="type your message here..." styleClass="type-message-box" stylesheets="@style.css">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <ImageView fitHeight="26.0" fitWidth="26.0" layoutX="958.0" layoutY="659.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@PNG/microphone.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="22.0" fitWidth="26.0" layoutX="917.0" layoutY="661.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@PNG/laugh.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="31.0" fitWidth="32.0" layoutX="335.0" layoutY="655.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@PNG/image(1).png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
